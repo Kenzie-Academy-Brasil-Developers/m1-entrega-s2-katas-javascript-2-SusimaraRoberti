@@ -18,11 +18,12 @@ console.assert(
 
 // comece a criar a sua função multiply na linha abaixo
 function multiply(a, b) {
-  let multiplica = 0;
+  let multiplica = b;
+  let resultado = 0;
   for (let i = 0; i < a; i++) {
-    multiplica += add(b, 0);
+    resultado = add(multiplica, resultado);
   }
-  return multiplica;
+  return resultado;
 }
 
 // descomente a linha seguinte para testar sua função
